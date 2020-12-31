@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">My movie info</string>
+    <string name="avengers_image">avengers image</string>
+    <string name="back_string">Back</string>
+    <string name="backIcon"><![CDATA[<]]></string>
+    <string name="go_back_description">Go Back</string>
+    <string name="PG">13+</string>
+    <string name="gradient_image">gradient</string>
+    <string name="movie_name">Avengers:\nEnd Game</string>
+    <string name="avengers_nend_game">Avengers: <br/> End Game</string>
+    <string name="Tags">Action, Adventure, Fantasy</string>
+    <string name="Reviews">125 Reviews</string>
+    <string name="Stroryline_name">Storyline</string>
+    <string name="Storyline_text">After the devastating events of Avengers:
+        Infinity War, the universe is in ruins.
+        With the help of remaining allies, the Avengers assemble once more in order to reverse
+        Thanos actions and restore balance to the universe.
+    </string>
+    <string name="Casts">Cast</string>
+    <string name="actor_name">Robert <br/> Downey Jr.</string>
+    <string name="actor_name2">Chris <br/>Evans</string>
+    <string name="actor_name3">Mark <br/>Ruffalo</string>
+    <string name="actor_name4">Chris <br/>Hemsworth</string>
+    <string name="rating_star">star</string>
 </resources>
