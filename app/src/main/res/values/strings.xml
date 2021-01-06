@@ -22,4 +22,5 @@
     <string name="actor_name3">Mark <br/>Ruffalo</string>
     <string name="actor_name4">Chris <br/>Hemsworth</string>
     <string name="rating_star">star</string>
+    <string name="header_mask">gradient</string>
 </resources>
