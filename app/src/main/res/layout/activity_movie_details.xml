@@ -110,7 +110,7 @@
             android:shadowDx="0"
             android:shadowDy="6"
             android:shadowRadius="12"
-            android:text="@string/avengers_nend_game"
+            android:text="@string/avengers_end_game"
             android:textColor=" #ECECEC"
             android:textSize="40sp"
             android:textStyle="normal"
