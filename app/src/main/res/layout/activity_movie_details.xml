@@ -110,7 +110,7 @@
             android:shadowDx="0"
             android:shadowDy="6"
             android:shadowRadius="12"
-            android:text="@string/avengers_nend_game"
+            android:text="@string/avengers_end_game"
             android:textColor=" #ECECEC"
             android:textSize="40sp"
             android:textStyle="normal"
@@ -253,6 +253,7 @@
             android:visibility="visible"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/casts_textView"
+            app:srcCompat="@drawable/downey"
             tools:srcCompat="@drawable/downey" />
 
         <ImageView
@@ -265,6 +266,7 @@
             android:visibility="visible"
             app:layout_constraintStart_toEndOf="@+id/actor_imageView"
             app:layout_constraintTop_toBottomOf="@+id/casts_textView"
+            app:srcCompat="@drawable/evans"
             tools:srcCompat="@drawable/evans" />
 
         <ImageView
@@ -277,6 +279,7 @@
             android:visibility="visible"
             app:layout_constraintStart_toEndOf="@+id/actor_imageView2"
             app:layout_constraintTop_toBottomOf="@+id/casts_textView"
+            app:srcCompat="@drawable/ruffalo"
             tools:srcCompat="@drawable/ruffalo" />
 
         <ImageView
@@ -289,6 +292,7 @@
             android:visibility="visible"
             app:layout_constraintStart_toEndOf="@+id/actor_imageView3"
             app:layout_constraintTop_toBottomOf="@+id/casts_textView"
+            app:srcCompat="@drawable/hemsworth"
             tools:srcCompat="@drawable/hemsworth" />
 
         <TextView
