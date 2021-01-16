@@ -3,8 +3,7 @@
     <string name="back_string">Back</string>
     <string name="backIcon"><![CDATA[<]]></string>
     <string name="pg">13+</string>
-    <string name="movie_name">Avengers: <br/> End Game</string>
-    <string name="avengers_end_game">Avengers: \n End Game</string>
+    <string name="avengers_end_game">Avengers: \nEnd Game</string>
     <string name="tags">Action, Adventure, Fantasy</string>
     <string name="reviews">125 Reviews</string>
     <string name="stroryline_name">Storyline</string>
@@ -14,9 +13,9 @@
         Thanos actions and restore balance to the universe.
     </string>
     <string name="casts">Cast</string>
-    <string name="actor_name">Robert <br/> Downey Jr.</string>
-    <string name="actor_name2">Chris <br/>Evans</string>
-    <string name="actor_name3">Mark <br/>Ruffalo</string>
-    <string name="actor_name4">Chris <br/>Hemsworth</string>
+    <string name="actor_name">Robert Downey Jr.</string>
+    <string name="actor_name2">Chris Evans</string>
+    <string name="actor_name3">Mark Ruffalo</string>
+    <string name="actor_name4">Chris Hemsworth</string>
     <string name="rating_star">star</string>
 </resources>
