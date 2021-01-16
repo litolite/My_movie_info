@@ -7,9 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="main_color">#191923</color>
-    <color name="Tags">#FF3466</color>
+    <color name="main_theme_background_color">#191923</color>
+    <color name="tags">#FF3466</color>
     <color name="fade">#6D6D80</color>
-    <color name="ECECEC">#ECECEC</color>
-    <color name="D8D8D8">#D8D8D8</color>
+    <color name="ececec">#ECECEC</color>
+    <color name="d8d8d8">#D8D8D8</color>
+    <color name="filled_star">#FF3365</color>
 </resources>
