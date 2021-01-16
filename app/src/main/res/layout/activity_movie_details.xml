@@ -46,10 +46,10 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toTopOf="@id/guideline_horizontal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/header_image_view"
+            app:layout_constraintEnd_toEndOf="@id/header_image_view"
+            app:layout_constraintStart_toStartOf="@id/header_image_view"
+            app:layout_constraintTop_toTopOf="@id/header_image_view"
             app:srcCompat="@drawable/mask" />
 
         <ImageView
