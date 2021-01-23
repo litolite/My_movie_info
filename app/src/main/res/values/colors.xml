@@ -10,7 +10,8 @@
     <color name="main_theme_background_color">#191923</color>
     <color name="tags">#FF3466</color>
     <color name="fade">#6D6D80</color>
-    <color name="ececec">#ECECEC</color>
-    <color name="d8d8d8">#D8D8D8</color>
+    <color name="section_name_text_color">#ECECEC</color>
+    <color name="actor_name_text_color">#D8D8D8</color>
     <color name="filled_star">#FF3365</color>
+    <color name="shadow_color">#40000000</color>
 </resources>

@@ -1,9 +1,8 @@
 <resources>
     <string name="app_name">My movie info</string>
     <string name="back_string">Back</string>
-    <string name="backIcon"><![CDATA[<]]></string>
     <string name="pg">13+</string>
-    <string name="avengers_end_game">Avengers: \nEnd Game</string>
+    <string name="avengers_end_game">Avengers:\nEnd Game</string>
     <string name="tags">Action, Adventure, Fantasy</string>
     <string name="reviews">125 Reviews</string>
     <string name="stroryline_name">Storyline</string>
@@ -17,5 +16,4 @@
     <string name="actor_name2">Chris Evans</string>
     <string name="actor_name3">Mark Ruffalo</string>
     <string name="actor_name4">Chris Hemsworth</string>
-    <string name="rating_star">star</string>
 </resources>
