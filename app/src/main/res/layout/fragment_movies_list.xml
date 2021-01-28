@@ -98,6 +98,19 @@
             app:layout_constraintStart_toStartOf="@id/movie_list_item_image_view"
             app:layout_constraintTop_toTopOf="@id/movie_list_item_image_view" />
 
+        <ImageView
+            android:id="@+id/like_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/movie_list_item_pg_text_view"
+            app:layout_constraintEnd_toEndOf="@id/movie_list_item_image_view"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toEndOf="@+id/movie_list_item_pg_text_view"
+            app:layout_constraintTop_toTopOf="@+id/movie_list_item_pg_text_view"
+            app:srcCompat="@drawable/like"
+            app:tint="@color/white" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
