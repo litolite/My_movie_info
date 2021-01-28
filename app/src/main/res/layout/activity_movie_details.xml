@@ -105,7 +105,7 @@
             android:shadowDx="0"
             android:shadowDy="6"
             android:shadowRadius="12"
-            android:text="@string/avengers_end_game"
+            android:text="@string/avengers_end_game_separate"
             android:textColor="@color/section_name_text_color"
             android:textSize="40sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline_horizontal"
