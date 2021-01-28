@@ -83,7 +83,7 @@
             android:layout_height="24dp"
             android:layout_marginBottom="52dp"
             android:alpha="0.9"
-            android:background="@drawable/rectangle"
+            android:background="@drawable/pg_rectangle"
             android:fontFamily="@font/roboto900"
             android:gravity="center"
             android:paddingTop="4dp"

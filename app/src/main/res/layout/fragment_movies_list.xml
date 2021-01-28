@@ -84,6 +84,20 @@
             app:layout_constraintTop_toTopOf="@id/movie_list_item_image_image_view"
             app:srcCompat="@drawable/movie_list_item_mask" />
 
+        <TextView
+            android:id="@+id/movie_list_item_pg_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pg_rectangle"
+            android:gravity="center"
+            android:text="@string/pg"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/movie_list_item_image_view"
+            app:layout_constraintTop_toTopOf="@id/movie_list_item_image_view" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
