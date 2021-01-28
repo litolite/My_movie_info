@@ -54,7 +54,7 @@
             app:layout_constraintTop_toTopOf="@+id/movie_list_header_image_view" />
 
         <ImageView
-            android:id="@+id/movie_list_item_image_view"
+            android:id="@+id/movie_list_card_image_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -69,9 +69,9 @@
             android:layout_marginStart="2dp"
             android:layout_marginTop="2dp"
             android:layout_marginEnd="2dp"
-            app:layout_constraintEnd_toEndOf="@+id/movie_list_item_image_view"
-            app:layout_constraintStart_toStartOf="@+id/movie_list_item_image_view"
-            app:layout_constraintTop_toTopOf="@+id/movie_list_item_image_view"
+            app:layout_constraintEnd_toEndOf="@+id/movie_list_card_image_view"
+            app:layout_constraintStart_toStartOf="@+id/movie_list_card_image_view"
+            app:layout_constraintTop_toTopOf="@+id/movie_list_card_image_view"
             app:srcCompat="@drawable/movie_item" />
 
         <ImageView
@@ -96,8 +96,8 @@
             android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@id/movie_list_item_image_view"
-            app:layout_constraintTop_toTopOf="@id/movie_list_item_image_view" />
+            app:layout_constraintStart_toStartOf="@id/movie_list_card_image_view"
+            app:layout_constraintTop_toTopOf="@id/movie_list_card_image_view" />
 
         <ImageView
             android:id="@+id/like_image_view"
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             app:layout_constraintBottom_toBottomOf="@+id/movie_list_item_pg_text_view"
-            app:layout_constraintEnd_toEndOf="@id/movie_list_item_image_view"
+            app:layout_constraintEnd_toEndOf="@id/movie_list_card_image_view"
             app:layout_constraintHorizontal_bias="1"
             app:layout_constraintStart_toEndOf="@+id/movie_list_item_pg_text_view"
             app:layout_constraintTop_toTopOf="@+id/movie_list_item_pg_text_view"
@@ -123,8 +123,8 @@
             android:textColor="@color/tags"
             android:textSize="8sp"
             app:layout_constraintBottom_toBottomOf="@id/movie_list_item_image_image_view"
-            app:layout_constraintEnd_toEndOf="@+id/movie_list_item_image_view"
-            app:layout_constraintStart_toStartOf="@+id/movie_list_item_image_view" />
+            app:layout_constraintEnd_toEndOf="@+id/movie_list_card_image_view"
+            app:layout_constraintStart_toStartOf="@+id/movie_list_card_image_view" />
 
         <ImageView
             android:id="@+id/rating_star_image_view"
@@ -132,7 +132,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="@id/movie_list_item_image_view"
+            app:layout_constraintStart_toStartOf="@id/movie_list_card_image_view"
             app:layout_constraintTop_toBottomOf="@+id/movie_list_item_tags_text_view"
             app:srcCompat="@drawable/baseline_star_24"
             android:contentDescription="TODO"
@@ -193,7 +193,7 @@
             android:textColor="@color/fade"
             android:textSize="8sp"
             app:layout_constraintBottom_toBottomOf="@+id/rating_star_image_view"
-            app:layout_constraintEnd_toEndOf="@id/movie_list_item_image_view"
+            app:layout_constraintEnd_toEndOf="@id/movie_list_card_image_view"
             app:layout_constraintStart_toEndOf="@+id/rating_star_image_view5"
             app:layout_constraintTop_toTopOf="@+id/rating_star_image_view" />
 
@@ -209,9 +209,9 @@
             android:textColor="@color/section_name_text_color"
             android:textSize="14sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@id/movie_list_item_image_view"
-            app:layout_constraintEnd_toEndOf="@+id/movie_list_item_image_view"
-            app:layout_constraintStart_toStartOf="@id/movie_list_item_image_view" />
+            app:layout_constraintBottom_toBottomOf="@id/movie_list_card_image_view"
+            app:layout_constraintEnd_toEndOf="@+id/movie_list_card_image_view"
+            app:layout_constraintStart_toStartOf="@id/movie_list_card_image_view" />
 
         <TextView
             android:id="@+id/timing_text_view"
@@ -224,9 +224,9 @@
             android:textColor="@color/fade"
             android:textSize="8sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/movie_list_item_image_view"
-            app:layout_constraintEnd_toEndOf="@id/movie_list_item_image_view"
-            app:layout_constraintStart_toStartOf="@id/movie_list_item_image_view" />
+            app:layout_constraintBottom_toBottomOf="@+id/movie_list_card_image_view"
+            app:layout_constraintEnd_toEndOf="@id/movie_list_card_image_view"
+            app:layout_constraintStart_toStartOf="@id/movie_list_card_image_view" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
