@@ -2,7 +2,7 @@
     <string name="app_name">My movie info</string>
     <string name="back_string">Back</string>
     <string name="pg">13+</string>
-    <string name="avengers_end_game">Avengers:\nEnd Game</string>
+    <string name="avengers_end_game_separate">Avengers:\nEnd Game</string>
     <string name="tags">Action, Adventure, Fantasy</string>
     <string name="reviews">125 Reviews</string>
     <string name="stroryline_name">Storyline</string>
@@ -16,4 +16,9 @@
     <string name="actor_name2">Chris Evans</string>
     <string name="actor_name3">Mark Ruffalo</string>
     <string name="actor_name4">Chris Hemsworth</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movies_list">Movies list</string>
+    <string name="avengers_end_game">Avengers: End Game</string>
+    <string name="avengers_timing">137 MIN</string>
 </resources>
