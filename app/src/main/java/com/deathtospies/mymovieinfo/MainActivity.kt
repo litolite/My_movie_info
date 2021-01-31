@@ -5,7 +5,10 @@ import android.os.Bundle
 import android.widget.FrameLayout
 import com.deathtospies.mymovieinfo.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity(), FragmentMoviesDetailsClickListener {
+class MainActivity : AppCompatActivity(),
+    FragmentMoviesListClickListener,
+    FragmentMoviesDetailsClickListener {
+
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,13 +30,25 @@ class MainActivity : AppCompatActivity(), FragmentMoviesDetailsClickListener {
     override fun OnMovieClicked() {
         findViewById<FrameLayout>(R.id.fragment_container)
 
-            val transaction = supportFragmentManager.beginTransaction()
-            val moviesDetails = FragmentMoviesDetails.newInstance()
-            transaction
-                .addToBackStack(null)
-                .replace(R.id.fragment_container, moviesDetails, "movieDetails")
-                .commit()
+        val transaction = supportFragmentManager.beginTransaction()
+        val moviesDetails = FragmentMoviesDetails.newInstance()
 
+        transaction
+            .addToBackStack(null)
+            .replace(R.id.fragment_container, moviesDetails, "movieDetails")
+            .commit()
+
+    }
+
+    override fun OnBackNavigationClicked() {
+        findViewById<FrameLayout>(R.id.fragment_container)
+
+        val transaction = supportFragmentManager.beginTransaction()
+        val moviesList = FragmentMoviesList.newInstance()
+
+        transaction
+            .replace(R.id.fragment_container, moviesList, "moviesList")
+            .commit()
     }
 
 

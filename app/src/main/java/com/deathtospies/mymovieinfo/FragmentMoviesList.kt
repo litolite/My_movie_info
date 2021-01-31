@@ -20,7 +20,7 @@ private const val ARG_PARAM2 = "param2"
  */
 class FragmentMoviesList : Fragment() {
 
-    private var FragmentMoviesDetailsClickListener: FragmentMoviesDetailsClickListener? = null
+    private var FragmentMoviesListClickListener: FragmentMoviesListClickListener? = null
     private var param1: String? = null
     private var param2: String? = null
 
@@ -36,12 +36,12 @@ class FragmentMoviesList : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         val view = inflater.inflate(R.layout.fragment_movies_list, container, false)
 
         view?.findViewById<ImageView>(R.id.movie_list_card_image_view)?.apply {
             setOnClickListener {
-                FragmentMoviesDetailsClickListener?.OnMovieClicked()
+                FragmentMoviesListClickListener?.OnMovieClicked()
             }
         }
 
@@ -60,17 +60,17 @@ class FragmentMoviesList : Fragment() {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
-        if (context is FragmentMoviesDetailsClickListener) {
-            FragmentMoviesDetailsClickListener = context
+        if (context is FragmentMoviesListClickListener) {
+            FragmentMoviesListClickListener = context
         }
     }
 
     override fun onDetach() {
         super.onDetach()
-        FragmentMoviesDetailsClickListener = null
+        FragmentMoviesListClickListener = null
     }
     }
 
-interface FragmentMoviesDetailsClickListener {
+interface FragmentMoviesListClickListener {
     fun OnMovieClicked()
 }
